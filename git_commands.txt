@@ -1,0 +1,13 @@
+Rebase interactive:
+- To change commit message
+- To squash multiple commits
+
+
+git rebase -i parent_commit_hash (of commit you want to change)
+
+-> If change commit message then, use reword for that commit and save it.
+-> If combine multiple commits then, use squash for latest commit you want to combine in and save it.
+
+To change commit commit message of last commit,
+git commit --amend -m "new message"
+
