@@ -8,6 +8,6 @@ def sum(a,b):
 def multiply(a,b):
     return a*b
 
-sum(3,5)
+r1 = sum(3,5)
 
-multiply(12,4)
+r2 = multiply(12,4)
