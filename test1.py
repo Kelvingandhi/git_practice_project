@@ -11,3 +11,5 @@ def multiply(a,b):
 r1 = sum(3,5)
 
 r2 = multiply(12,4)
+
+print(r1)

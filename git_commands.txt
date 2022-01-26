@@ -60,4 +60,13 @@ There're 3 options with git reset.
 
     Here, -d option removes untracked dirs, and f removes untracked files.
 
+Note:
+> git reset command changes the commit history. This is only recommended when we've changes 
+    in local repo and haven't pushed it to remote yet.
+  It can cause issue if someone has pulled those commit changes and then we change commit history.
+
+> git revert is recommended in that case when someone has pulled commit changes and now we want to 
+    revert back those changes while not changing git commit history but it will create another commit
+    undoing those changes and won't cause issues.
+
 
